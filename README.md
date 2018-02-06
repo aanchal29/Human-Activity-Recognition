@@ -1,10 +1,16 @@
 # Human-Activity-Recognition
 
 Approaches Used: LDA, Multinomial Logistic Regression, SVM and K Nearest Neighbours 
-Technologies Used: python
+Technologies Used: Python
 
-Led the implementation of thie project to understand in detail the working of the various classifiers.
-Group of 30 volunteers participated in the activities wearing accelerometer and gyroscope. 
-Each person performed 6 activities: SITTING, STANDING, LAYING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS 
-SVM with linear kernel provides a much more accuracy than all the other classifiers used 
-Most of the errors are due to similar reading from the sensors for the ‘sitting’ and ‘standing’ activity.
+1) The goal is to understand in detail about the working of the various classifiers on Human Activity Recognition Dataset. 
+
+2) The source data is obtained from UCI Machine Learning Repository (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+
+3) The experiments have been carried out with a group of 30 volunteers within age brackets 19-48 years. Each person performed six activities (SITTING, STANDING, LYING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS). The six activities as six classes corresponds to each data point with 561 features. 
+
+4) The Approaches used are: Linear Discriminant Analyses (LDA); Multinomial Logistic Regression; Support Vector Machines (SVM) and kNN. 
+
+5) The comparison is performed based on the confusion matrix of those classification results on the test data using the different training classifiers, presented by confusion matrices. 
+
+6) SVM with linear kernel approach is the best fit classifier to our dataset. It gives the best performance for all the accuracies and error rates. SVM with linear kernel being a flexible approach which is capable to reduce overfitting.
